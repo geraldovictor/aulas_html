@@ -100,18 +100,45 @@ exemplos
   }
 </style>
 
-/* acho que a tag div serve para separar os blocos
+<!-- acho que a tag div serve para separar os blocos
     onde class é o nome do bloco e para usá-lo
     utilizamos ".nomedobloco" e para deixá-lo passível
     de movimentá-lo usamos o atributo display: flex.
-  <div></div>*/
+  <div></div>
 
-/*a ordem de prioridade de atributos é primeiro a direta, segundo a dentro do arquivo, e terceiro fora do arquivo*/
-/*
+a ordem de prioridade de atributos é primeiro a direta, segundo a dentro do arquivo, e terceiro fora do arquivo
+
 o atributo class que faz as coisas serem separadas por classes a tag div ainda não sei para o que serve.
 Também pode ser usado o atributo id mas a diferença entre id e class é que vc pode ter mais de um atributo para classes e elas podem
 ser usada mais uma vez enquanto para o id só pode ser usado uma vez e só com um atributo
-*/
-/*
+
 atributos para classes que tem dois pontos ":" dizem a respeito de coisas que mudam quando se passa o cursor sobre elas
-*/
+-->
+<!-- divs servem como blocos onde podemos separar os conteúdos , os divs tem bordas
+  onde podemos definir a espessura (border)delas e margens que servem para separar
+  o fim da borda com outros blocos(margin), quando temos conteúdo dentro do bloco usamos o atributo (padding) para separá-lo do começo da borda.
+para tornar a borda visível usa-se border solid-->
+
+<!-- para criar uma modificação na linha usamos tags inline que são tags que não
+  criam um campo de uma linha toda, por exemplo a tag <a href="#"></a>
+  e a tag <span></span> servem para fazer a modificação na linha usando pouco espaço.
+  por padrão tags de titulo e de parágrafo são blocos que ocupam toda a linha
+  não permitindo a utilização ao lado
+  para modificar isso utilizamos o atributo display
+  o valores possíveis são 4:
+  block bloqueia o bloco para não poder ter blocs ao lado(padrã0)
+  inline deixa colocar blocos ao lado porém sem mudar a largura dos mesmos
+  inline-block deixa colocar ao lado e permite mudar a largura dos mesmos
+  none remore um bloco que não queira na tela e o espaço reservado para ele
+  obs: visibility hidden só esconde mas n tira o espaço reservado para o bloco
+
+  position serve para posicionarmos os blocos de acordo com alguma referencia;
+  relative é em relação ao padrão
+  absolute é em relação ao tamanho da div
+  fixed é em relação a página (ou da div) mas fica fixada mesmo com a rolagem
+
+  quando queremos centralizar todo o conteúdo utilizamos text-align center, porém
+  só terá efeito nos conteúdo que estiverem sem largura definida
+  para conteudos que tem largura definida otilizamos margin onde podemos usar o valor
+  "auto" que serve para centralizar o a margem do conteúdo a borda da página
+-->

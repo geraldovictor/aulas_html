@@ -1,0 +1,54 @@
+body{
+  text-align: center;
+  margin: 0;
+  font-family: sans-serif;
+}
+.top-container{
+  background-color: #61f2f5;
+  margin: 0;
+}
+h1{
+  width: 10%;
+  margin: auto;
+  padding-top: 100px;
+}
+.city{
+  width: 75%;
+}
+.cloud1{
+  position: absolute;
+  left: 200px;
+  top: -10px;
+}
+.cloud2{
+  position: absolute;
+  right:  200px;
+  top: -60px;
+}
+/*
+.azul{
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+.amarelo{
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+.verde{
+  background-color: green;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+}
+*/
